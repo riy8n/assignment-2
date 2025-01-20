@@ -7,32 +7,82 @@
   font-style: normal;
 }
 /* shared style */
-body{
+.body{
     margin-left: 140px;
     margin-right: 140px;
 }
+.btn-primary{
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+}
+.color-1{
+  color: rgb(254, 163, 1);
+}
+.color-2{
+    color:rgb(1, 172, 253) ;
+}
+.color-3{
+    color: rgb(17, 17, 17);
+}
+    
 
 
 
 
-
+/* header section */
+header{
+    background: rgb(247, 247, 247);;
+}
 /* nav section */
 .nav-section{
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
-.nav-ul li a{
+.nav-logo{
     display: flex;
-    list-style: none;
-    text-decoration: none;
-    
+    gap: 11px;
 }
+.nav-ul ul{
+    display: flex;
+    gap: 32px;
+}
+.nav-ul a{
+    text-decoration: none;
 
+}
+.nav-ul li{
+    list-style: none;
+}
+.home{
+    color: rgb(254, 163, 1);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 700;
+}
+.about{
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
 
+}
+.facilities{
+    color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
 
-
-
-
+}
+.admission{
+    color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+}
 
 .btn-nav{
     border-radius: 12px;
@@ -47,3 +97,49 @@ gap: 10;
 padding: 10px;
 
 }
+.banner{
+    display: flex;
+    gap: 50px;
+    padding-top: 16px;
+    padding: 10px;
+    
+
+}
+.banner-content h3{
+    font-family: Quicksand;
+font-size: 3.5rem;
+font-weight: 700;
+width: 550px;
+height: 183px;
+}
+.banner-content p{
+    font-size: 1.25rem;
+font-weight: 400;
+color: rgb(17, 17, 17);
+    width: 640px;
+height: 50px
+}
+.banner-img{
+  width: 100%;
+
+}
+
+ @media screen and (max-width:576px) {
+    
+    .body{
+        margin: 16px 20px;
+    }
+    .nav-logo-title,.nav-ul li,.nav-btn
+    {
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     
+    }
+
+    
+} 
