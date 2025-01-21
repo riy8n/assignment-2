@@ -416,8 +416,6 @@ font-weight: 400;
     }
     .card-contners{
         flex-direction: column;
-        /* padding: 40px 0px 40px 0px; */
-        width: 100%;
     }
     .footer-content{
         flex-direction: column;
