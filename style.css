@@ -120,6 +120,9 @@ gap: 10;
 padding: 10px;
 
 }
+.hr{
+    display: none;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -384,6 +387,9 @@ font-weight: 400;
   .icon{
     display: inline-block;
 
+  }
+  .hr{
+    display: inline;
   }
     .nav-section{
         margin: 0px;
