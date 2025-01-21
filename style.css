@@ -163,44 +163,50 @@ color:rgb(17, 17, 17);
     text-align: center;
 }
 .card-contners{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: 28px;
     margin-top: 80px ;
     margin-bottom: 80px;
     text-align: center;
-    justify-content: center;
     align-items: center;
    
 }
 .card-contnet-1{
-    width: 367.8px;
-height: 476.78px;
     box-sizing: border-box;
 border: 0.94px solid rgb(222, 245, 255);
 border-radius: 18.86px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-padding: 60px;
+padding: 40px;
 }
 .card-content-2{
-    width: 367.8px;
-height: 481.5px;
     box-sizing: border-box;
 border: 0.94px solid rgb(255, 244, 220);
 border-radius: 18.86px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-padding: 60px;
+padding: 40px;
 }
 .card-content-3{
-    width: 367.8px;
-height: 476.78px;
     box-sizing: border-box;
 border: 0.94px solid rgb(242, 232, 255);
 border-radius: 18.86px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-padding: 60px;
+padding: 40px;
+}
+
+.card-content-p h3{
+    font-size: 24px;
+    margin-top: 32px;
+
+}
+.card-content-p p{
+    font-size: 14px;
+    margin: 32px 40px 32px 40px;
+
 }
 .btn-3{
     color: rgb(240, 170, 0);
@@ -410,16 +416,27 @@ font-weight: 400;
     }
     .card-contners{
         flex-direction: column;
-        padding: 40px 0px 40px 0px;
+        /* padding: 40px 0px 40px 0px; */
+        width: 100%;
     }
-    
     .footer-content{
         flex-direction: column;
         gap: 30px;
     }
     .card-section{
         margin-top: 40px;
-        
+        /* width: 100%; */
+}
+/* .card-content-2, .card-content-3,.card-contnet-1{
+    width: 320px;
+height: 300px;
+} */
+.card-content-p h3{
+    font-size: 16px;
+    
+}
+.card-content-p p{
+    font-size: 10px;
 }
 .card-symble{
     display: none;
