@@ -386,7 +386,7 @@ font-weight: 400;
         margin-left:  16px;
         margin-right: 16px;
     }
-    .nav-logo-title,.nav-ul li,.nav-btn, .marquee
+    .nav-logo-title,.nav-ul li,.nav-btn
     {
         display: none;
     }
