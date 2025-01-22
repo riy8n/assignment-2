@@ -459,9 +459,11 @@ height: 300px;
     display: none;
 }
 .story-date{
+    position: relative;
     width: 70px;
     height: 15px;
-    top: 55%;
+    transform: translate(-15% , 50%);
+    top: -1.4rem;
     left: 10%;
     font-size: 5px;
 
